@@ -34,7 +34,7 @@ module.exports = {
 					//loader: 'graphql-tag/loader'
 					loader: 'gq-loader',
 					options: {
-						url: 'http://localhost:81/graphql',
+						url: 'http://api.localhost/graphql',
 						request : path . resolve ( './src/request.js' ),
 						debug: true
 					}
